@@ -1,0 +1,31 @@
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vue.js 实例</title>
+</head>
+
+<body>
+    <h1>Vue2.0 实例</h1>
+    <hr>
+
+    <ol>
+        <li><a href="#">Hello word 实例</a></li>
+    </ol>
+</body>
+
+</html>
+<div id="app">
+    {{ message }}
+</div>
+
+
+var app = new Vue({
+    el: '#app',
+    data: {
+      message: 'Hello Vue!'
+    }
+  })
